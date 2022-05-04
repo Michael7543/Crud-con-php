@@ -1,0 +1,74 @@
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.15);
+    position: relative;
+    transition: all .2s ease-in-out;
+    background-color: rgb(163, 200, 224);
+    padding: 20px;
+    border-radius: 5px;
+    width: 600px;
+    margin: 0 auto;
+    
+  }
+  .card:hover {
+    /* box-shadow: 0 5px 22px 0 rgba(0,0,0,.25); */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+
+}
+.boton{
+    width: 100%;
+    /* margin-right: -65px; */
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    --c: rgb(95, 119, 226);
+    color: var(--c);
+    font-size: 12px;
+    border: 0.3em solid var(--c);
+    border-radius: 0.5em;
+    width:60px;
+    height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: sans-serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+    line-height: 3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+    /* margin: 1em; */
+    text-decoration: none;
+     padding: 5px; 
+    cursor: pointer;
+    
+  }
+.btn:hover{
+   background-color: black;
+   color:white
+}
+.btn_dos{
+  --c: rgb(95, 119, 226);
+  color: var(--c);
+  font-size: 12px;
+  border: 0.3em solid var(--c);
+  border-radius: 0.5em;
+  width:10px;
+  height: 3em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+  text-align: center;
+  line-height: 3em;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 0.5s;
+  margin: 1em;
+  text-decoration: none;
+  padding: 5px;
+  cursor: pointer;
+}
